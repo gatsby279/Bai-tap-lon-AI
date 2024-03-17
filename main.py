@@ -3,6 +3,13 @@ import HandTrackingModule as htm
 import pyautogui
 import numpy as np
 
+"""
+năm tay và chỉ dơ ngón trỏ để điều khiển chuột , do cái cam của tôi để nên tôi để smooth = 4, 
+anh em có cam xin thì chỉnh smooth lền cao hơn để nó nhậy hơn nhá
+còn để click : dơ cả ngon dữa và ngón trỏ và khẽ chạm để click
+"""
+
+
 # start cam
 success = False
 while success == False:
